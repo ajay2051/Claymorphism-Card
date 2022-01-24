@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins" sans-serif;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: cornsilk;
+}
+
+.card {
+	position: relative;
+	min-height: 60vh;
+	width: 250px;
+	background: rgb(204, 203, 203);
+	border-radius: 15px;
+	box-shadow: 15px 15px 20px rgba(252, 80, 80, 0.5),
+		-10px -15px 20px rgba(111, 227, 235, 0.2),
+		inset -10px -10px 20px rgba(22, 229, 243, 0.2);
+}
+
+.card img {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	padding: 2%;
+	object-fit: cover;
+}
+
+.card .content h3 {
+	position: relative;
+	text-align: center;
+	padding-top: 20px;
+	color: rgb(11, 167, 194);
+}
+.card .content h3 span {
+	position: relative;
+	padding-top: 15px;
+}
+
+.card .icon ul {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+
+	transform: translateY(30px);
+}
+
+.card .icon ul li a {
+	position: relative;
+	font-size: 30px;
+	margin: 0 15px;
+	color: rgb(8, 172, 237);
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 5px 10px 20px rgba(252, 80, 80, 0.5),
+		5px 10px 20px rgba(111, 227, 235, 0.2),
+		inset -5px -5px 10px rgba(22, 229, 243, 0.2);
+}
